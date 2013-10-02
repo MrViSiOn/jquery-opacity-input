@@ -4,7 +4,7 @@ Version 0.1
 Author: Daniel Ruiz
 */
 $.fn.opacityinput = function(options) {
-	options = $.extend({}, $.fn.BackgroundT.defaults, options);
+	options = $.extend({}, $.fn.opacityinput.defaults, options);
 
 	return this.each(function() {
 		element = $(this);
